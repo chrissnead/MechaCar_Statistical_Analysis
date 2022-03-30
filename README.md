@@ -13,13 +13,13 @@ This analysis looks at production data for an auto company. The findings below p
 - With the r-squared value at 0.7149 or 71.5%, the accuracy of the linear model's predicttion of mpg for MechaCar prototypes is fair, but should be improved.
 
 ## Summary Statistics on Suspension Coils
-The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. The current manufacturing data seems to meet this design specification in the total summary (first image below) but it can be seen when broken down by each lot in the lot summary (second image below), Lot3 goes well beyond the maximum 100 pounds per square inch at a variance of 170.29.
 
 ![total_summary](Images/total_summary.png)
 ![lot_summary](Images/lot_summary.png)
 
 ## T-Tests on Suspension Coils
-Briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
+Each t-test shares a fairly similar mean of x of around 1500. The discrepancy is in Lot3 where the p-value is less than 0.05, therefore should be rejected as null.
 
 ![t-test](Images/t-test.png)
 ![t-test Lot1](Images/t-test-Lot1.png)
