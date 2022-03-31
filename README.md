@@ -27,10 +27,4 @@ Each t-test shares a fairly similar mean of x of around 1500. The discrepancy is
 ![t-test Lot3](Images/t-test-Lot3.png)
 
 ## Study Design: MechaCar vs Competition
-Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
-
-In your description, address the following questions:
-What metric or metrics are you going to test?
-What is the null hypothesis or alternative hypothesis?
-What statistical test would you use to test the hypothesis? And why?
-What data is needed to run the statistical test?
+To further measure MechaCar against competitors, the first metric I would look at is highway fuel efficiency. With vehicles increasingly becoming more powerful and full electric cars now being introduced to the market, fuel efficiency is a key metric in purchasing a vehicle. To test this, a linear regression model would be needed to understand outliers when measuring the MPG and horsepower for each vehicle.
